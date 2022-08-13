@@ -48,7 +48,7 @@ const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7];
 scene.add(mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7);
 
 //sprite texture
-const sprite = new THREE.TextureLoader().load("./src/assets/dust.png");
+// const sprite = new THREE.TextureLoader().load("./src/assets/dust.png");
 
 /**
  * Particles
@@ -78,9 +78,7 @@ const particlesMaterial = new THREE.PointsMaterial({
   size: 0.03,
   transparent: true,
   alphaTest: 0.5,
-  map: sprite,
 });
-particlesMaterial.color.setHSL(1.0, 0.3, 0.7);
 
 // Points
 const particles = new THREE.Points(particlesGeometry, particlesMaterial);
@@ -235,10 +233,6 @@ const tick = () => {
   // Render
 //   renderer.render(scene, camera);
     composer.render();
-
-  const time = Date.now() * 0.00005;
-  const h = ((360 * (1.0 + time)) % 360) / 360;
-  particlesMaterial.color.setHSL(h, 0.5, 0.5);
 
   // Call tick again on the next frame
   window.requestAnimationFrame(tick);
