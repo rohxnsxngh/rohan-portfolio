@@ -47,13 +47,6 @@ const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7];
 
 scene.add(mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7);
 
-//sprite texture
-// const sprite = new THREE.TextureLoader().load("./src/assets/dust.png");
-
-/**
- * Particles
- */
-// Geometry
 const particlesCount = 1500;
 const positions = new Float32Array(particlesCount * 3);
 
@@ -84,16 +77,10 @@ const particlesMaterial = new THREE.PointsMaterial({
 const particles = new THREE.Points(particlesGeometry, particlesMaterial);
 scene.add(particles);
 
-/**
- * Lights
- */
 const directionalLight = new THREE.DirectionalLight("#ffffff", 1);
 directionalLight.position.set(1, 1, 0);
 scene.add(directionalLight);
 
-/**
- * Sizes
- */
 const sizes = {
   width: window.innerWidth,
   height: window.innerHeight,
@@ -120,9 +107,6 @@ window.addEventListener("resize", () => {
     window.innerHeight * window.devicePixelRatio;
 });
 
-/**
- * Scroll
- */
 let scrollY = window.scrollY;
 let currentSection = 0;
 
@@ -142,9 +126,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-/**
- * Cursor
- */
 const cursor = {};
 cursor.x = 0;
 cursor.y = 0;
@@ -154,9 +135,6 @@ window.addEventListener("mousemove", (event) => {
   cursor.y = event.clientY / sizes.height - 0.5;
 });
 
-/**
- * Camera
- */
 // Group
 const cameraGroup = new THREE.Group();
 scene.add(cameraGroup);
@@ -171,9 +149,6 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.z = 6;
 cameraGroup.add(camera);
 
-/**
- * Renderer
- */
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   alpha: true,
@@ -202,9 +177,6 @@ effectSobel.uniforms["resolution"].value.y =
   window.innerHeight * window.devicePixelRatio;
 composer.addPass(effectSobel);
 
-/**
- * Animate
- */
 const clock = new THREE.Clock();
 let previousTime = 0;
 
