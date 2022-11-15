@@ -1,11 +1,18 @@
 <template>
   <div>
+    <MenuPage />
     <section class="section" id="introduction">
-      <Intro />
-      <br/>
+      <Home />
+      <br />
     </section>
     <section class="section" id="middle">
-      <Experience />
+      <ExperienceTesla />
+    </section>
+    <section class="section" id="middle">
+      <ExperienceTesla />
+    </section>
+    <section class="section" id="middle">
+      <ExperienceTesla />
     </section>
     <section class="section" id="middle-second">
       <Skills />
@@ -78,20 +85,20 @@ img:hover {
 </style>
 
 <script>
-import Experience from "./components/Experience.vue";
+import ExperienceTesla from "./components/ExperienceTesla.vue";
 import Contact from "./components/Contact.vue";
 import Skills from "./components/Skill.vue";
-import Intro from "./components/Intro.vue";
+import Home from "./components/Home.vue";
 import MenuPage from "./components/MenuPage.vue";
 
 export default {
   name: "home",
   components: {
-    Experience,
+    ExperienceTesla,
     Contact,
     Skills,
-    Intro,
-    MenuPage
+    Home,
+    MenuPage,
   },
 };
 </script>

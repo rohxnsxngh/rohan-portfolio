@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Experience</h2>
-    <h6>Software Engineering Intern @ <strong style="color: aqua;">Tesla</strong></h6>
+    <h6>Software Engineering Intern @ <strong style="color: #73d7ff;">Tesla</strong></h6>
     <br />
     <ul>
       <p>Full Stack Tesla Self Perform Project</p>
@@ -88,7 +88,7 @@ p {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
-  color: aqua;
+  color: #73d7ff;
   margin-top: 20px;
   margin-bottom: 20px;
 }
