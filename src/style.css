@@ -5,6 +5,16 @@
   overflow: hidden;
 }
 
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #73d7ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -40,14 +50,4 @@ html {
 
 section:nth-child(odd) {
   justify-content: flex-end;
-}
-
-p {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
-  color: #73d7ff;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
