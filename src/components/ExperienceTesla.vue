@@ -1,94 +1,64 @@
 <template>
   <div>
-    <h2>Experience</h2>
-    <h6>Software Engineering Intern @ <strong style="color: #73d7ff;">Tesla</strong></h6>
+    <!-- <h2>Experience</h2> -->
+    <h4>
+      Software Engineering Intern @
+      <strong style="color: #73d7ff">Tesla</strong>
+    </h4>
     <br />
     <ul>
-      <p>Full Stack Tesla Self Perform Project</p>
-      <li>Ingressed approximately 500,000 rows of data from SharePoints lists into a centralized PostgreSQL database using .NET and the EPPlus NuGet package.</li>
-      <li>
-        Implemented Flyway, an open-source database migration tool, to migrate
-        Schema's and update our database.
-      </li>
-      <li>
-        Built controllers in C# with custom routes for their respective HTTP
-        methods.
-      </li>
-      <li>
-        Used Vue.js, Tailwind CSS, and Daisy UI to design a sleek frontend and successfully
-        deployed it to a Tesla domain.
-      </li>
-      <li>
-        Implemented AG-Grid Tables to lazy load 500,000 rows which improved
-        rendering speed by 60%.
-      </li>
-      <li>
-        Seamlessly Implemented CRUD application workflow into the webpage.
-      </li>
-      <li>
-        Utilized state management with Vuex to successfully create authorization
-        amongst different webpages. Entire application is wrapped in SSO.
-      </li>
-      <li>
-        Connected PostgreSQL database to Power BI to create an embedded
-        dashboard page within the frontend.
-      </li>
-      <p>Meeting Minutes Tracker</p>
-      <li>
-        Utilized Vue.js and Bootstrap 4 to design frontend according to Tesla
-        specifications.
-      </li>
-      <li>
-        Developed event handling to allow CTRL + V to copy images and ONLY
-        images to canvas. Images would be stored as BLOBs and sent to their
-        respective HTTP routes and stored on the server.
-      </li>
-      <li>
-        Wrote Schema and used Flyway to migrate versions into PostgreSQL
-        database
-      </li>
-
-      <p>Revizto Dashboard</p>
-      <li>
-        Ingressed factory issues tracking out of Revizto, a software that
-        unifies BIM intelligence and makes it immediately accessible for the
-        entire project, into PostgreSQL.
-      </li>
-      <li>
-        Wrote Schema and utilized Flyway to migrate versions into PostgreSQL
-        database.
-      </li>
-      <li>
-        Accessed Revizto’s advanced Issue Tracker predefined workflows, project
-        team members can identify and manage model-based issues in the 3D space
-        and 2D sheets, including addressing clash groups.
-      </li>
-      <li>Designed frontend in Vue.js and Bootstrap 4.</li>
-      <li>
-        Utilized Vue ApexCharts, a modern charting library, to build a dynamic
-        dashboard that organized Factory Issues from Revizto.
-      </li>
-      <br />
       <p>
-        Tech Stack & Tools: .NET 4.7.2, Vue.js, PostgreSQL, Tailwind CSS, Three.js,
-        Bootstrap, Express.js
+        Collaborated with software engineers to develop and test application
+        procedures for system efficiency.
       </p>
-      <p style="float: right">Jan. 2022 - Aug. 2022</p>
+      <p>
+        Wrote clean Schema’s and used Flyway, an open source migration tool, to
+        migrate versions into a database.
+      </p>
+      <p>
+        Designed sleek frontend UI/UX interface using Vue.js, Tailwind,
+        Bootstrap, AG-Grid, ApexCharts, Three.js for a variety of projects.
+      </p>
+      <p>
+        Utilized state management with Vuex to create scalable organized code
+        and centralized API/data-fetching logic.
+      </p>
+      <p>Built REST API’s in .NET with C# for multiple CRUD applications.</p>
+      <p>
+        Assisting the Texas Giga Factory BIM team who is responsible for
+        managing the digital model and data representations of the factory and
+        its productions assets used by engineering, construction, manufacturing,
+        and operations teams.
+      </p>
+      <p>
+        Providing design and construction coordination services aimed at
+        maximizing constructibility, safety, maintainability, and future factory
+        expansion options. Implementing myriad of technology and processes used
+        to maintain all factory models and their associated data in as close to
+        real-time as possible.
+      </p>
+      <p>
+        Using LIDAR scanning and reality capture with Cintoo to map the factory
+        and resolve clashes.
+      </p>
+
+      <br />
+      <p style="color: white">
+        <strong style="color: #73d7ff">Tech Stack & Tools:</strong> .NET 4.7.2,
+        Vue.js, PostgreSQL, Tailwind CSS, Three.js, Bootstrap, Express.js
+      </p>
+      <p style="float: right; color: white">Jan. 2022 - Sept. 2022</p>
     </ul>
   </div>
 </template>
 
 <style scoped>
-li {
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 16px;
-}
-
 p {
-  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
   font-weight: bold;
   font-style: italic;
-  color: #73d7ff;
+  color: white;
   margin-top: 20px;
   margin-bottom: 20px;
 }

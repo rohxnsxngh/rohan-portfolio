@@ -12,6 +12,7 @@ const canvas = document.querySelector("canvas.webgl");
 // Scene
 const scene = new THREE.Scene();
 
+
 const objectsDistance = 4;
 
 // Material
@@ -19,35 +20,39 @@ const material = new THREE.MeshPhongMaterial({ color: "#ffeded" });
 
 // Meshes
 const mesh1 = new THREE.Mesh(new THREE.TorusKnotGeometry(1, 0.25, 125, 15, 2, 7), material);
-const mesh2 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.4, 0.35, 100, 16),material);
-const mesh3 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.2, 0.35, 100, 16),material);
-const mesh4 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.8, 0.6, 55, 8,9,3),material);
+const mesh2 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.4, 0.35, 100, 16),material); // donut hole
+const mesh3 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.2, 0.35, 100, 16),material); // donut hole
+const mesh4 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.8, 0.6, 55, 8, 9, 3),material); //home
 const mesh5 = new THREE.Mesh(new THREE.TorusGeometry(1, 0.4, 16, 60), material);
-const mesh6 = new THREE.Mesh(new THREE.TorusKnotGeometry(1, 0.5, 77, 8,20,1),material);
-const mesh7 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.3, 0.08, 70, 5, 17.5,12),material);
+const mesh6 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.5, 0.25, 77, 8,20, 1),material); //spike ball
+const mesh7 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.5, 0.05, 70, 5, 17.5, 12),material); // diamond
+const mesh8 = new THREE.Mesh(new THREE.TorusKnotGeometry(0.0001, 1, 194, 5, 2, 70),material); // contact
 
 
 mesh4.position.y = -objectsDistance * 0;
-mesh2.position.y = -objectsDistance * 1.2;
+mesh2.position.y = -objectsDistance * 1;
 mesh3.position.y = -objectsDistance * 2.2;
 mesh5.position.y = -objectsDistance * 2.2;
-mesh6.position.y = -objectsDistance * 3;
-mesh1.position.y = -objectsDistance * 4.5;
-mesh7.position.y = -objectsDistance * 3.5;
+mesh6.position.y = -objectsDistance * 2.5;
+mesh7.position.y = -objectsDistance * 3.85;
+mesh1.position.y = -objectsDistance * 5.5;
+mesh8.position.y = -objectsDistance * 7.5;
+
 
 mesh1.position.x = 0;
 mesh2.position.x = 1;
 mesh3.position.x = 2;
 mesh4.position.x = 0;
 mesh5.position.x = 2;
-mesh6.position.x = -0.75;
+mesh6.position.x = -2.75;
 mesh7.position.x = 2;
+mesh8.position.x = 0;
 
-const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7];
+const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8];
 
-scene.add(mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7);
+scene.add(mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8);
 
-const particlesCount = 1500;
+const particlesCount = 100;
 const positions = new Float32Array(particlesCount * 3);
 
 for (let i = 0; i < particlesCount; i++) {
@@ -66,20 +71,23 @@ particlesGeometry.setAttribute(
 
 // Material
 const particlesMaterial = new THREE.PointsMaterial({
-  // color: '#ffeded',
   sizeAttenuation: true,
   size: 0.03,
   transparent: true,
   alphaTest: 0.5,
+  // color: 0x000000,
 });
 
 // Points
+
 const particles = new THREE.Points(particlesGeometry, particlesMaterial);
 scene.add(particles);
 
-const directionalLight = new THREE.DirectionalLight("#ffffff", 1);
-directionalLight.position.set(1, 1, 0);
-scene.add(directionalLight);
+//Light 
+
+const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+scene.add( ambientLight );
+
 
 const sizes = {
   width: window.innerWidth,
@@ -149,6 +157,11 @@ const camera = new THREE.PerspectiveCamera(
 camera.position.z = 6;
 cameraGroup.add(camera);
 
+//Point Light
+
+const pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+camera.add( pointLight );
+
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas,
   alpha: true,
@@ -203,8 +216,8 @@ const tick = () => {
     (parallaxY - cameraGroup.position.y) * 10 * deltaTime;
 
   // Render
-//   renderer.render(scene, camera);
-    composer.render();
+  // renderer.render(scene, camera);
+  composer.render();
 
   // Call tick again on the next frame
   window.requestAnimationFrame(tick);

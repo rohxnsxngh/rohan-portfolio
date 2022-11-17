@@ -6,13 +6,13 @@
       <br />
     </section>
     <section class="section" id="middle">
-      <ExperienceTesla />
+      <ExperienceRiver />
     </section>
     <section class="section" id="middle">
       <ExperienceTesla />
     </section>
     <section class="section" id="middle">
-      <ExperienceTesla />
+      <ExperienceTurtle />
     </section>
     <section class="section" id="middle-second">
       <Skills />
@@ -90,11 +90,15 @@ import Contact from "./components/Contact.vue";
 import Skills from "./components/Skill.vue";
 import Home from "./components/Home.vue";
 import MenuPage from "./components/MenuPage.vue";
+import ExperienceTurtle from "./components/ExperienceTurtle.vue";
+import ExperienceRiver from "./components/ExperienceRiver.vue";
 
 export default {
   name: "home",
   components: {
     ExperienceTesla,
+    ExperienceTurtle,
+    ExperienceRiver,
     Contact,
     Skills,
     Home,

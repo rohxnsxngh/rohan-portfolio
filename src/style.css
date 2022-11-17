@@ -1,48 +1,53 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 html {
-    overflow: scroll;
-    overflow-x: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #13c7d3;
+  background: #13c7d3;
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
-
-.section
-{
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    font-family: 'Cabin', sans-serif;
-    color: #ffeded;
-    font-size: 7vmin;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 500px;
-    will-change: transform;
+.section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  font-family: "Cabin", sans-serif;
+  color: #ffeded;
+  font-size: 7vmin;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 500px;
+  will-change: transform;
 }
 
-section:nth-child(odd)
-{
-    justify-content: flex-end;
+section:nth-child(odd) {
+  justify-content: flex-end;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #73d7ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
