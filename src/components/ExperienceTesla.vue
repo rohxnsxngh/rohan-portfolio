@@ -1,12 +1,11 @@
 <template>
   <div>
-    <!-- <h2>Experience</h2> -->
     <h4>
       Software Engineering Intern @
-      <strong style="color: #73d7ff">Tesla</strong>
+      <strong>Tesla</strong>
     </h4>
     <br />
-    <ul>
+    <ul class="text-xl font-semibold">
       <p>
         Collaborated with software engineers to develop and test application
         procedures for system efficiency.
@@ -51,15 +50,3 @@
     </ul>
   </div>
 </template>
-
-<style scoped>
-p {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-</style>
