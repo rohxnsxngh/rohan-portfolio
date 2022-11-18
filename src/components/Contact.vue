@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-regal-blue text-5xl font-bold">Contact Me</h2>
+    <h2 class="shadow-sky-800 shadow-sm text-regal-blue text-5xl font-bold">Contact Me</h2>
     <div class="flex mt-4 cursor-pointer">
       <a class="mr-10" href="https://github.com/rohxnsxngh"
         ><img class="w-16" src="../assets/coloredGit.png"

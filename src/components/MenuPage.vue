@@ -22,6 +22,7 @@
     font-size: 0;
     font-family: "Lucida Console", "Courier New", monospace;
     font: bold;
+    opacity: 80%;
   }
   nav a {
     line-height: 50px;
@@ -69,25 +70,25 @@
   a:nth-child(2):hover ~ .animation {
     width: 110px;
     left: 100px;
-    background-color: #0277bd;
+    background-color: #01579b;
   }
   nav .start-blog,
   a:nth-child(3):hover ~ .animation {
     width: 100px;
     left: 210px;
-    background-color: #0288d1;
+    background-color: #01579b;
   }
   nav .start-portefolio,
   a:nth-child(4):hover ~ .animation {
     width: 160px;
     left: 310px;
-    background-color: #039be5;
+    background-color: #01579b;
   }
   nav .start-contact,
   a:nth-child(5):hover ~ .animation {
     width: 120px;
     left: 470px;
-    background-color: #028a8a;
+    background-color: #01579b;
   }
 }
 </style>
