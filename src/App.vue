@@ -5,13 +5,13 @@
       <Home />
       <br />
     </section>
-    <section class="block section scroll-div" id="about">
+    <section class="block section" id="about">
       <About />
     </section>
-    <section class="block section scroll-div" id="river">
+    <section class="block section" id="river">
       <ExperienceRiver />
     </section>
-    <section class="block section scroll-div" id="tesla">
+    <section class="block section" id="tesla">
       <ExperienceTesla />
     </section>
     <section class="block section" id="turtle">

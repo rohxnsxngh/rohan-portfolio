@@ -27,7 +27,7 @@ html {
 .section {
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   position: relative;
   font-family: "Cabin", sans-serif;
   color: #ffeded;

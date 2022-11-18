@@ -36,7 +36,7 @@ mesh5.position.y = -objectsDistance * 2.2;
 mesh6.position.y = -objectsDistance * 2.5;
 mesh7.position.y = -objectsDistance * 3.85;
 mesh1.position.y = -objectsDistance * 5.5;
-mesh8.position.y = -objectsDistance * 7.5;
+mesh8.position.y = -objectsDistance * 6.5;
 
 
 mesh1.position.x = 0;
