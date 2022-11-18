@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h4>
+    <h4 class="text-4xl font-bold mb-4">
       Software Engineering Intern @
-      <strong>Tesla</strong>
+      <strong class="text-regal-blue">Tesla</strong>
     </h4>
-    <br />
     <ul class="text-xl font-semibold">
       <p>
         Collaborated with software engineers to develop and test application

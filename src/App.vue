@@ -1,32 +1,32 @@
 <template>
   <div class="block">
     <MenuPage />
-    <section class="section" id="introduction">
+    <section class="section" id="home">
       <Home />
       <br />
     </section>
-    <section class="section" id="introduction">
+    <section class="block section" id="about">
       <About />
     </section>
-    <section class="section" id="middle">
+    <section class="block section" id="river">
       <ExperienceRiver />
     </section>
-    <section class="section" id="middle">
+    <section class="block section" id="tesla">
       <ExperienceTesla />
     </section>
-    <section class="section" id="middle">
+    <section class="block section" id="turtle">
       <ExperienceTurtle />
     </section>
-    <section class="section" id="middle-second">
+    <section class="block section" id="skills">
       <Skills />
     </section>
-    <section class="section" id="conclusion">
+    <section class="block section" id="contact">
       <Contact />
     </section>
   </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
@@ -43,7 +43,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #1c1818;
 }
-</style>
+</style> -->
 
 <script>
 import ExperienceTesla from "./components/ExperienceTesla.vue";

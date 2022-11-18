@@ -5,7 +5,7 @@
       Software Engineering Intern @
       <strong class="text-regal-blue">RiverProject</strong>
     </h4>
-    <ul class="text-xl font-thin">
+    <ul class="text-xl font-semibold list-disc">
       <li>
         Provided software and hardware troubleshooting to maintain performance
         levels.
@@ -39,7 +39,3 @@
     </ul>
   </div>
 </template>
-
-<style scoped>
-
-</style>

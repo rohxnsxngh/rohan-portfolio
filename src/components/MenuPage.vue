@@ -1,10 +1,10 @@
 <template>
   <nav>
-    <a href="#">Home</a>
-    <a href="#introduction">About</a>
-    <a href="#">Projects</a>
-    <a href="#middle">Experience</a>
-    <a href="#conclusion">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#turtle">Projects</a>
+    <a href="#river">Experience</a>
+    <a href="#contact">Contact</a>
     <div class="animation start-home"></div>
   </nav>
 </template>
