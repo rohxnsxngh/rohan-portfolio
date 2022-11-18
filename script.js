@@ -52,7 +52,7 @@ const sectionMeshes = [mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8];
 
 scene.add(mesh1, mesh2, mesh3, mesh4, mesh5, mesh6, mesh7, mesh8);
 
-const particlesCount = 100;
+const particlesCount = 1000;
 const positions = new Float32Array(particlesCount * 3);
 
 for (let i = 0; i < particlesCount; i++) {

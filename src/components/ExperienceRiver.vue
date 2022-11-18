@@ -11,11 +11,7 @@
         >RiverProject</strong
       >
     </h4>
-    <transition-group
-      tag="ul"
-      class="text-sm font-semibold tablet:text-xl font-semibold"
-      appear
-    >
+    <ul class="text-sm font-semibold tablet:text-xl font-semibold">
       <li>
         <strong class="text-sm text-regal-blue tablet:text-regal-blue text-2xl"
           >- </strong
@@ -59,7 +55,7 @@
         >
         Rust, Vue.js, Typescript, PostgreSQL, Tailwind CSS, Grafani loki, Mimir
       </p>
-      <p class="float-right text-regal-blue">Sept. 2022 - Present</p>
-    </transition-group>
+      <p class="float-right text-regal-blue my-6">Sept. 2022 - Present</p>
+    </ul>
   </div>
 </template>
