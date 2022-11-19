@@ -24,6 +24,18 @@ html {
   left: 0;
 }
 
+.line-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+svg {
+  display: block;
+  height: 100%;
+  opacity: 10%;
+}
+
 .section {
   display: flex;
   align-items: center;
