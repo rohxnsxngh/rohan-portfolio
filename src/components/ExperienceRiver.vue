@@ -1,11 +1,11 @@
 <template>
   <div class="backdrop-blur-sm">
     <h2
-      class="shadow-sky-800 shadow-sm text-regal-blue text-4xl tablet:text-regal-blue text-6xl font-bold mb-10"
+      class="text-center tablet:text-left shadow-sky-800 shadow-sm text-4xl tablet:text-6xl text-regal-blue font-bold mb-5"
     >
       Experience
     </h2>
-    <h4 class="text-2xl font-bold tablet:text-4xl font-bold mb-4">
+    <h4 class="text-center tablet:text-left text-2xl font-bold tablet:text-4xl font-bold mb-4">
       Software Engineering Intern @
       <strong class="text-2xl text-regal-blue tablet:text-regal-blue"
         >RiverProject</strong

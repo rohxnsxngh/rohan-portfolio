@@ -1,7 +1,7 @@
 <template>
   <div class="backdrop-blur-sm">
     <h2
-      class="mb-10 shadow-sky-800 shadow-sm text-regal-blue text-4xl tablet:text-regal-blue text-6xl font-bold mb-10"
+      class="text-center tablet:text-left shadow-sky-800 shadow-sm text-4xl tablet:text-6xl text-regal-blue font-bold mb-5"
     >
       Projects
     </h2>
@@ -30,12 +30,12 @@
         >
           <a
             href="#slide4"
-            class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+            class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❮</a
           >
           <a
             href="#slide2"
-            class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+            class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❯</a
           >
         </div>
@@ -65,10 +65,10 @@
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide1" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide1" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❮</a
           >
-          <a href="#slide3" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide3" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❯</a
           >
         </div>
@@ -81,10 +81,10 @@
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide2" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide2" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❮</a
           >
-          <a href="#slide4" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide4" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❯</a
           >
         </div>
@@ -97,10 +97,10 @@
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
         >
-          <a href="#slide3" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide3" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❮</a
           >
-          <a href="#slide1" class="btn btn-xs btn-circle mb-64 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
+          <a href="#slide1" class="btn btn-xs btn-circle mb-96 tablet:btn tablet:btn-circle tablet:bg-regal-blue tablet:text-white tablet:mb-32"
             >❯</a
           >
         </div>

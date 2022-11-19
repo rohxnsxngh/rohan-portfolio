@@ -1,6 +1,6 @@
 <template>
   <div class="backdrop-blur-sm">
-    <h4 class="text-2xl font-bold tablet:text-4xl font-bold mb-4">
+    <h4 class="text-center tablet:text-left text-2xl font-bold tablet:text-4xl font-bold mb-4">
       Software Engineering Intern @
       <strong class="text-2xl text-regal-blue tablet:text-regal-blue"
         >Tesla</strong

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <h2 class="shadow-sky-800 shadow-sm text-regal-blue text-5xl font-bold">
+    <h2 class="shadow-sky-800 shadow-sm text-4xl tablet:text-6xl text-regal-blue font-bold mb-5">
       Contact Me
     </h2>
     <div class="flex mt-4 cursor-pointer">
       <!-- email -->
-      <a class="mr-10" href="mailto:rohan.singh.do@gmail.com">
+      <a class="mr-2 ml-8 tablet:mr-8" href="mailto:rohan.singh.do@gmail.com">
         <svg
           viewBox="0 0 512 512"
           style="enable-background: new 0 0 512 512"
-          class="w-16"
+          class="w-8 tablet:w-16"
           fill="#73D7FF"
         >
           <path
@@ -26,8 +26,8 @@
       </a>
 
       <!-- github -->
-      <a class="mr-10" href="https://github.com/rohxnsxngh">
-        <svg class="w-16" viewBox="0 0 48 48" fill="#73D7FF">
+      <a class="mr-2 tablet:mr-8" href="https://github.com/rohxnsxngh">
+        <svg class="w-8 tablet:w-16" viewBox="0 0 48 48" fill="#73D7FF">
           <rect width="48" height="48" fill="#73D7FFe" fill-opacity="0.01" />
           <path
             d="M24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4ZM0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
@@ -43,9 +43,9 @@
       </a>
 
       <!-- linkedin -->
-      <a class="mr-10" href="https://www.linkedin.com/in/rohan-singh1122/">
+      <a class="mr-2 tablet:mr-8" href="https://www.linkedin.com/in/rohan-singh1122/">
         <svg
-          class="w-16"
+          class="w-8 tablet:w-16"
           viewBox="0 0 310 310"
           style="enable-background: new 0 0 310 310"
           xml:space="preserve"
@@ -69,9 +69,9 @@
       </a>
 
       <!-- instagram -->
-      <a class="mr-10" href="https://www.instagram.com/rohxnsxngh/">
+      <a class="mr-2 tablet:mr-8" href="https://www.instagram.com/rohxnsxngh/">
         <svg
-          class="w-16"
+          class="w-8 tablet:w-16"
           x="0px"
           y="0px"
           viewBox="0 0 239.04 239.04"
