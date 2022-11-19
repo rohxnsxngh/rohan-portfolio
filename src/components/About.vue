@@ -42,9 +42,11 @@
       >, who forced my eyes open at the true capabilities of software
       development/engineering. I largely consider him my inspiration for truly
       starting to dive into the world of software. Not to mention, he’s an
-      absolute legend :). My ultimate goal is to find the intersection between
-      creative design, artistic expression, mechanical engineering, and software
-      development… then I want to live in that world forever.
+      absolute legend :). I am also love learning about the universe and space
+      exploration which is an industry I would also love to work in. My ultimate
+      goal is to find the intersection between creative design, artistic
+      expression, mechanical engineering, and software development… then I want
+      to live in that world forever.
     </p>
     <h1
       class="text-center tablet:text-left my-10 shadow-sky-800 shadow-sm text-4xl tablet:text-6xl text-regal-blue font-bold mb-5"
@@ -65,11 +67,17 @@
       can. Some other hobbies I enjoy are working out, cooking, and playing
       video games (unsurprisingly).
     </p>
-    <p class=" my-10 text-sm font-semibold tablet:text-xl">
+    <p class="my-10 text-sm font-semibold tablet:text-xl">
       Thank you for taking the time to read about me! I hope you enjoy going
       exploring the rest of my portfolio website. If you have any questions or
-      comments, I would love to hear them. You can reach me through the <a class="text-regal-blue underline" href="#contact">contact</a>
-      page or my email at <a class="text-regal-blue underline" href="mailto:rohan.singh.do@gmail.com">rohan.singh.do@gmail.com</a>.
+      comments, I would love to hear them. You can reach me through the
+      <a class="text-regal-blue underline" href="#contact">contact</a> page or
+      my email at
+      <a
+        class="text-regal-blue underline"
+        href="mailto:rohan.singh.do@gmail.com"
+        >rohan.singh.do@gmail.com</a
+      >.
     </p>
   </div>
 </template>
