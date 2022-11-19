@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="backdrop-blur-sm">
     <h2
       class="mb-10 shadow-sky-800 shadow-sm text-regal-blue text-4xl tablet:text-regal-blue text-6xl font-bold mb-10"
     >
@@ -75,8 +75,8 @@
       </div>
       <div id="slide3" class="carousel-item relative w-full">
         <div>
-          <img src="https://placeimg.com/800/200/arch" class="w-full" />
-          <div>Slide3</div>
+          <img src="../assets/comingSoon.jpg" class="w-full" />
+          <!-- <div>Slide3</div> -->
         </div>
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -91,8 +91,8 @@
       </div>
       <div id="slide4" class="carousel-item relative w-full">
         <div>
-          <img src="https://placeimg.com/800/200/arch" class="w-full" />
-          <div>Slide4</div>
+          <img src="../assets/comingSoon.jpg" class="w-full" />
+          <!-- <div>Slide4</div> -->
         </div>
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"

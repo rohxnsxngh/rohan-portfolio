@@ -5,6 +5,7 @@ import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 import { LuminosityShader } from "three/examples/jsm/shaders/LuminosityShader.js";
 import { SobelOperatorShader } from "three/examples/jsm/shaders/SobelOperatorShader.js";
+import { createAmbientSound } from "./three-components/ambientSounds";
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -88,7 +89,6 @@ scene.add(particles);
 const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
 scene.add( ambientLight );
 
-
 const sizes = {
   width: window.innerWidth,
   height: window.innerHeight,
@@ -156,6 +156,10 @@ const camera = new THREE.PerspectiveCamera(
 );
 camera.position.z = 6;
 cameraGroup.add(camera);
+
+
+//ambient music
+createAmbientSound(camera)
 
 //Point Light
 
