@@ -42,11 +42,11 @@
       >, who forced my eyes open at the true capabilities of software
       development/engineering. I largely consider him my inspiration for truly
       starting to dive into the world of software. Not to mention, he’s an
-      absolute legend :). I am also love learning about the universe and space
-      exploration which is an industry I would also love to work in. My ultimate
-      goal is to find the intersection between creative design, artistic
-      expression, mechanical engineering, and software development… then I want
-      to live in that world forever.
+      absolute legend :). I also love learning about the universe and space
+      exploration which is an industry I want to explore at some point in my
+      career. My ultimate goal is to find the intersection between creative
+      design, artistic expression, mechanical engineering, and software
+      development… then I want to live in that world forever.
     </p>
     <h1
       class="text-center tablet:text-left my-10 shadow-sky-800 shadow-sm text-4xl tablet:text-6xl text-regal-blue font-bold mb-5"

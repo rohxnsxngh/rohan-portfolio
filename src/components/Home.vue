@@ -8,7 +8,7 @@
       </h1>
     </div>
     <svg
-      class="blur-none w-24 mx-auto my-48 animate-bounce"
+      class="blur-none w-24 mx-auto my-32 animate-bounce"
       width="960px"
       height="560px"
       viewBox="0 0 960 560"

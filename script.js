@@ -26,11 +26,11 @@ const mesh1 = new THREE.Mesh(
 const mesh2 = new THREE.Mesh(
   new THREE.TorusKnotGeometry(0.4, 0.35, 100, 16),
   material
-); // donut hole
+); //
 const mesh3 = new THREE.Mesh(
   new THREE.TorusKnotGeometry(0.2, 0.35, 100, 16),
   material
-); // donut hole
+); //
 const mesh4 = new THREE.Mesh(
   new THREE.TorusKnotGeometry(0.8, 0.6, 55, 8, 9, 3),
   material
@@ -61,6 +61,19 @@ const mesh11 = new THREE.Mesh(
   material
 ); // star contact
 
+// general shape 
+const mesh12 = mesh5.clone()
+const mesh13 = mesh3.clone()
+
+const mesh14 = mesh5.clone()
+const mesh15 = mesh3.clone()
+
+const mesh16 = mesh5.clone()
+const mesh17 = mesh3.clone()
+
+const mesh18 = mesh5.clone()
+const mesh19 = mesh3.clone()
+
 mesh4.position.y = -objectsDistance * 0;
 mesh2.position.y = -objectsDistance * 1;
 mesh3.position.y = -objectsDistance * 2.2;
@@ -72,6 +85,14 @@ mesh8.position.y = -objectsDistance * 6.5;
 mesh11.position.y = -objectsDistance * 8;
 mesh9.position.y = -objectsDistance * 9.25;
 mesh10.position.y = -objectsDistance * 11;
+mesh12.position.y = -objectsDistance * 10;
+mesh13.position.y = -objectsDistance * 10;
+mesh14.position.y = -objectsDistance * 12;
+mesh15.position.y = -objectsDistance * 12;
+mesh16.position.y = -objectsDistance * 14;
+mesh17.position.y = -objectsDistance * 14;
+mesh18.position.y = -objectsDistance * 3;
+mesh19.position.y = -objectsDistance * 3;
 
 mesh1.position.x = 0;
 mesh2.position.x = 1;
@@ -84,6 +105,14 @@ mesh8.position.x = 0;
 mesh9.position.x = 0;
 mesh10.position.x = 0;
 mesh11.position.x = 0;
+mesh12.position.x = 0;
+mesh13.position.x = 0;
+mesh14.position.x = 0;
+mesh15.position.x = 0;
+mesh16.position.x = 0;
+mesh17.position.x = 0;
+mesh18.position.x = -1;
+mesh19.position.x = -1;
 
 const sectionMeshes = [
   mesh1,
@@ -97,6 +126,14 @@ const sectionMeshes = [
   mesh9,
   mesh10,
   mesh11,
+  mesh12,
+  mesh13,
+  mesh14,
+  mesh15,
+  mesh16,
+  mesh17,
+  mesh18,
+  mesh19,
 ];
 
 scene.add(
@@ -110,7 +147,15 @@ scene.add(
   mesh8,
   mesh9,
   mesh10,
-  mesh11
+  mesh11,
+  mesh12,
+  mesh13,
+  mesh14,
+  mesh15,
+  mesh16,
+  mesh17,
+  mesh18,
+  mesh19,
 );
 
 const particlesCount = 500;
